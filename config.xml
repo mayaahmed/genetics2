@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mayamohsinahmed.genetics"
+        version   = "1.0.0">
+
+    <name>QUEROS</name>
+
+    <description>
+       QUEROS
+    </description>
+
+    <author href= "https://github.com/mayaahmed/genetics" email="maya.ahmed@gmail.com">
+       Maya Mohsin Ahmed
+    </author>
+
+    <!-- Define the main entry-point to the application -->
+    <content src="index.html" />
+
+
+<icon src="mdpi.png" platform="android" qualifier="mdpi" />
+<icon src="hdpi.png" platform="android" qualifier="hdpi" />
+<icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+<icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+
+
+    
+ </widget>
